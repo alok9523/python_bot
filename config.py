@@ -1,0 +1,5 @@
+import os
+
+# Set your API keys here
+OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "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")
+TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "7812347902:AAGCfdy6r70fMzx0Eorx2rTKb0YQO1K_xMk")
